@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Soil Recommendations</title>
+    <link rel="stylesheet" href="..\CSS Files\main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Soil Recommendations</h1>
+      <p>Get the best practices for maintaining healthy soil.</p>
+      <div class="navigation">
+        <button onclick="location.href='main.html'" class="nav-button">
+          Home
+        </button>
+        <button onclick="location.href='soil-health.html'" class="nav-button">
+          Soil Health
+        </button>
+        <button
+          onclick="location.href='microbial-activity.html'"
+          class="nav-button"
+        >
+          Microbial Activity
+        </button>
+        <button onclick="location.href='enhancement.html'" class="nav-button">
+          Enhancement
+        </button>
+        <button onclick="location.href='analysis.html'" class="nav-button">
+          Analysis
+        </button>
+        <button onclick="location.href='discussion.html'" class="nav-button">
+          Discussion
+        </button>
+      </div>
+    </header>
+
+    <main class="dashboard">
+      <div class="card">
+        <h2>Recommended Actions:</h2>
+        <p id="recommendationText">Loading...</p>
+      </div>
+
+      <section class="recommendation-section">
+        <h2>📌 Key Soil Management Practices</h2>
+        <div class="grid">
+          <div class="recommendation">
+            <h3>🌾 Crop Rotation</h3>
+            <p>Helps maintain soil nutrients and prevent pest infestations.</p>
+          </div>
+          <div class="recommendation">
+            <h3>🌱 Cover Crops</h3>
+            <p>
+              Prevents soil erosion, improves soil structure, and increases
+              organic matter.
+            </p>
+          </div>
+          <div class="recommendation">
+            <h3>🧪 Soil Testing</h3>
+            <p>
+              Regular testing helps determine nutrient deficiencies and pH
+              balance.
+            </p>
+          </div>
+          <div class="recommendation">
+            <h3>💧 Proper Irrigation</h3>
+            <p>
+              Prevents overwatering or drought stress, ensuring plant health.
+            </p>
+          </div>
+          <div class="recommendation">
+            <h3>🌿 Organic Matter</h3>
+            <p>
+              Adding compost and manure improves microbial activity and soil
+              structure.
+            </p>
+          </div>
+          <div class="recommendation">
+            <h3>🚜 Minimal Tillage</h3>
+            <p>
+              Preserves soil structure, retains moisture, and reduces erosion.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="chart-section">
+        <h2>📊 Soil Nutrient Comparison</h2>
+        <canvas id="soilChart"></canvas>
+      </section>
+    </main>
+
+    <script src="..\JavaScript Files\recommendation.js"></script>
+  </body>
+</html>

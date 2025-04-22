@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Soil Health Overview</title>
+    <link rel="stylesheet" href="..\CSS Files\main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Soil Health Overview</h1>
+      <div class="navigation">
+        <button onclick="location.href='main.html'" class="nav-button">
+          Home
+        </button>
+        <button
+          onclick="location.href='recommendations.html'"
+          class="nav-button"
+        >
+          Recommendations
+        </button>
+        <button
+          onclick="location.href='microbial-activity.html'"
+          class="nav-button"
+        >
+          Microbial Activity
+        </button>
+        <button onclick="location.href='enhancement.html'" class="nav-button">
+          Enhancement
+        </button>
+        <button onclick="location.href='analysis.html'" class="nav-button">
+          Analysis
+        </button>
+        <button onclick="location.href='Discussion.html'" class="nav-button">
+          Discussion
+        </button>
+      </div>
+    </header>
+
+    <main class="dashboard">
+      <section class="card">
+        <h2>Soil Health Index (Overall Score)</h2>
+        <p>
+          The Soil Health Index provides an overall assessment of the soil's
+          condition based on various parameters such as moisture, nutrient
+          levels, pH balance, and organic content.
+        </p>
+        <h3>Current Soil Health Index: <span id="soilHealthValue">--</span></h3>
+        <div class="chart-container">
+          <canvas id="soilHealthChart"></canvas>
+        </div>
+      </section>
+
+      <section class="monitoring-section">
+        <h2>Soil Parameters Overview</h2>
+        <p>
+          This section provides a breakdown of essential soil health factors,
+          helping farmers and researchers make informed decisions.
+        </p>
+        <div class="metrics-container">
+          <div class="metric-card">
+            <h3>Moisture Level</h3>
+            <div id="moistureLevel">--%</div>
+          </div>
+          <div class="metric-card">
+            <h3>Nutrient Levels</h3>
+            <div id="nutrientLevels">N: --, P: --, K: --</div>
+          </div>
+          <div class="metric-card">
+            <h3>pH Level</h3>
+            <div id="phLevel">--</div>
+          </div>
+          <div class="metric-card">
+            <h3>Temperature</h3>
+            <div id="temperature">--°C</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="visual-representations">
+        <h2>Visual Representations</h2>
+        <p>
+          Interactive charts and graphs showcasing the soil health trends and
+          important data points.
+        </p>
+        <div class="chart-container">
+          <canvas id="historicalDataChart"></canvas>
+        </div>
+      </section>
+
+      <section class="monitoring-section">
+        <h2>Soil Type & Composition</h2>
+        <p>
+          Understanding the composition of soil helps in determining its
+          fertility and suitability for different crops.
+        </p>
+        <div class="metrics-container">
+          <div class="metric-card">
+            <h3>Soil Type</h3>
+            <p id="soilType">--</p>
+          </div>
+          <div class="metric-card">
+            <h3>Organic Matter Content</h3>
+            <p id="organicMatter">--%</p>
+          </div>
+          <div class="metric-card">
+            <h3>Salinity Level</h3>
+            <p id="salinityLevel">-- dS/m</p>
+          </div>
+          <div class="metric-card">
+            <h3>Microbial Activity</h3>
+            <p id="microbialActivity">--</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Historical Data & Trends</h2>
+        <p>
+          Track how soil health parameters have changed over time to predict
+          future soil conditions.
+        </p>
+        <canvas id="historicalTrendsChart"></canvas>
+      </section>
+
+      <section class="soil-erosion">
+        <h2>Soil Erosion Risk & Stability</h2>
+        <p>
+          Assessing the risk of soil erosion and stability factors to prevent
+          land degradation.
+        </p>
+        <p id="erosionRisk">Erosion Risk: --</p>
+        <p id="stability">Soil Stability: --</p>
+      </section>
+    </main>
+
+    <script src="..\JavaScript Files\soil-health.js"></script>
+  </body>
+</html>

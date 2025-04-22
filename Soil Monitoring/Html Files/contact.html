@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="..\CSS Files\contact.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <div class="navigation">
+        <button onclick="location.href='main.html'" class="nav-button">
+          Home
+        </button>
+        <button onclick="location.href='about.html'" class="nav-button">
+          About
+        </button>
+        <button onclick="location.href='soil-health.html'" class="nav-button">
+          Soil Health
+        </button>
+        <button onclick="location.href='contact.html'" class="nav-button">
+          Contact
+        </button>
+      </div>
+    </header>
+
+    <main class="contact-container">
+      <!-- Contact Form -->
+      <section class="contact-form">
+        <h2>Get in Touch</h2>
+        <p>
+          We'd love to hear from you. Fill out the form below and our team will
+          get back to you soon!
+        </p>
+        <form id="contactForm">
+          <div class="input-group">
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your full name"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              rows="5"
+              placeholder="Write your message here"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+
+      <!-- Contact Details -->
+      <section class="contact-details">
+        <h2>Our Office</h2>
+        <p>
+          <i class="fas fa-map-marker-alt"></i> Gharuan, Mohali, Punjab, India
+        </p>
+        <p><i class="fas fa-phone"></i> +91 9060943814</p>
+        <p><i class="fas fa-envelope"></i> gaurav0211@gmail.com</p>
+
+        <!-- Google Maps Embed -->
+        <div class="map-container">
+          <iframe
+            src="https://maps.google.com/maps?q=Chandigarh&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          ></iframe>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="accordion">
+          <button class="accordion-button">What services do you offer?</button>
+          <div class="accordion-content">
+            <p>
+              We offer Soil Health Monitoring, Recommendations, Microbial
+              Activity, and Enhancement services. We provide AI-driven solutions
+              for farmers to improve crop yield.
+            </p>
+          </div>
+
+          <button class="accordion-button">How can I get a quote?</button>
+          <div class="accordion-content">
+            <p>
+              You can fill out our contact form, and we'll get back to you with
+              a quote.
+            </p>
+          </div>
+
+          <button class="accordion-button">Do you provide 24/7 support?</button>
+          <div class="accordion-content">
+            <p>Yes, we provide 24/7 customer support for premium customers.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="social-media">
+        <h2>Follow Us</h2>
+        <a href="https://www.linkedin.com/in/gaurav-kumar0211/"
+          ><i class="fab fa-facebook">Linked In</i></a
+        >
+        <a href="https://github.com/Gaurav-0211"
+          ><i class="fab fa-twitter">GitHub</i></a
+        >
+        <a href="gaurav02_11"><i class="fab fa-instagram">Instagram</i></a>
+      </section>
+
+      <button class="chat-button">Chat with Us</button>
+    </main>
+
+    <script src="..\JavaScript Files\contact.js"></script>
+  </body>
+</html>

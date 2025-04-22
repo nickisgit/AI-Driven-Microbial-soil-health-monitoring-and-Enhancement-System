@@ -1,0 +1,141 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #6755de, #8faee4);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.discussion-container,
+.featured-comments {
+  background: rgba(255, 255, 255, 0.15);
+  width: 70%;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.discussion-container:hover,
+.featured-comments:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
+}
+
+.discussion-box {
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 15px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  transition: background 0.3s ease-in-out;
+}
+
+.discussion-box:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+textarea {
+  width: 100%;
+  height: 90px;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  resize: none;
+  transition: background 0.3s ease-in-out;
+}
+
+textarea::placeholder {
+  color: #ddd;
+}
+
+textarea:focus {
+  background: rgba(255, 255, 255, 0.2);
+  outline: none;
+}
+
+button {
+  margin-top: 12px;
+  padding: 12px 24px;
+  border: none;
+  background: #ff6b6b;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #ff4757;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(255, 107, 107, 0.8);
+}
+
+.featured-comments p {
+  font-size: 18px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 12px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.featured-comments p:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .discussion-container,
+  .featured-comments {
+    width: 90%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.discussion-box p {
+  animation: pop 0.5s ease-out;
+}

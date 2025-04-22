@@ -1,0 +1,102 @@
+[
+  {
+    "sensor_id": "S1",
+    "timestamp": "2025-04-22T14:30:00Z",
+    "temperature": 28.5,
+    "moisture": 33.2,
+    "N": 45,
+    "P": 15,
+    "K": 30,
+    "pressure": 1012
+  },
+  {
+    "sensor_id": "S2",
+    "timestamp": "2025-04-22T14:30:00Z",
+    "temperature": 27.0,
+    "moisture": 35.0,
+    "N": 50,
+    "P": 20,
+    "K": 25,
+    "pressure": 1010
+  },
+  {
+    "sensor_id": "S3",
+    "timestamp": "2025-04-22T14:30:00Z",
+    "temperature": 29.0,
+    "moisture": 30.5,
+    "N": 40,
+    "P": 18,
+    "K": 28,
+    "pressure": 1015
+  },
+  {
+    "sensor_id": "S4",
+    "timestamp": "2025-04-22T14:30:00Z",
+    "temperature": 26.5,
+    "moisture": 32.0,
+    "N": 55,
+    "P": 22,
+    "K": 27,
+    "pressure": 1008
+  },
+  {
+    "sensor_id": "S5",
+    "timestamp": "2025-04-22T14:30:00Z",
+    "temperature": 28.0,
+    "moisture": 34.0,
+    "N": 48,
+    "P": 19,
+    "K": 26,
+    "pressure": 1011
+  },
+  {
+    "sensor_id": "S6",
+    "timestamp": "2025-04-22T14:30:00Z",
+    "temperature": 27.5,
+    "moisture": 31.0,
+    "N": 42,
+    "P": 17,
+    "K": 29,
+    "pressure": 1013
+  },
+  {
+    "sensor_id": "S7",
+    "timestamp": "2025-04-22T14:30:00Z",
+    "temperature": 28.2,
+    "moisture": 33.5,
+    "N": 46,
+    "P": 21,
+    "K": 24,
+    "pressure": 1009
+  },
+  {
+    "sensor_id": "S8",
+    "timestamp": "2025-04-22T14:30:00Z",
+    "temperature": 27.8,
+    "moisture": 32.5,
+    "N": 49,
+    "P": 23,
+    "K": 31,
+    "pressure": 1014
+  },
+  {
+    "sensor_id": "S9",
+    "timestamp": "2025-04-22T14:30:00Z",
+    "temperature": 28.7,
+    "moisture": 34.5,
+    "N": 44,
+    "P": 16,
+    "K": 32,
+    "pressure": 1007
+  },
+  {
+    "sensor_id": "S10",
+    "timestamp": "2025-04-22T14:30:00Z",
+    "temperature": 26.8,
+    "moisture": 30.0,
+    "N": 51,
+    "P": 20,
+    "K": 23,
+    "pressure": 1016
+  }
+]

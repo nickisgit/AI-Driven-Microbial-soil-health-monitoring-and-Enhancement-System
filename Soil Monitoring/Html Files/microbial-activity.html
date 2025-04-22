@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Microbial Activity</title>
+    <link rel="stylesheet" href="..\CSS Files\main.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Microbial Activity Analysis</h1>
+      <p>Understand the role of microbes in soil health.</p>
+      <div class="navigation">
+        <button onclick="location.href='main.html'" class="nav-button">
+          Home
+        </button>
+        <button onclick="location.href='soil-health.html'" class="nav-button">
+          Soil Health
+        </button>
+        <button
+          onclick="location.href='recommendations.html'"
+          class="nav-button"
+        >
+          Recommendations
+        </button>
+        <button onclick="location.href='enhancement.html'" class="nav-button">
+          Enhancement
+        </button>
+        <button onclick="location.href='analysis.html'" class="nav-button">
+          Analysis
+        </button>
+        <button onclick="location.href='discussion.html'" class="nav-button">
+          Discussion
+        </button>
+      </div>
+    </header>
+
+    <main class="dashboard">
+      <div class="card">
+        <h2>
+          Current Microbial Activity Index:
+          <span id="microbialActivityValue">--</span>
+        </h2>
+        <div class="chart-container">
+          <canvas id="microbialActivityChart"></canvas>
+        </div>
+      </div>
+
+      <section class="info">
+        <h2>Why is Microbial Activity Important?</h2>
+        <p>
+          Soil microbes break down organic matter, fix nitrogen, and contribute
+          to soil fertility.
+        </p>
+        <ul>
+          <li><b>Higher Activity</b> → Healthier soil, better plant growth.</li>
+          <li>
+            <b>Lower Activity</b> → Indicates soil degradation, lack of
+            nutrients.
+          </li>
+        </ul>
+      </section>
+
+      <section class="actions">
+        <h2>How to Improve Microbial Activity?</h2>
+        <div class="tips">
+          <div class="tip">🌱 Use organic compost</div>
+          <div class="tip">💧 Maintain proper moisture levels</div>
+          <div class="tip">🔬 Avoid excessive chemical fertilizers</div>
+          <div class="tip">🌾 Rotate crops to maintain diversity</div>
+        </div>
+      </section>
+    </main>
+
+    <script src="..\JavaScript Files\microbial-activity.js"></script>
+  </body>
+</html>

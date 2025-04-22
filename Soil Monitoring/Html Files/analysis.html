@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Analysis & Comparison</title>
+    <link rel="stylesheet" href="..\CSS Files\analysis.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Analysis & Comparison</h1>
+      <div class="navigation">
+        <button onclick="location.href='main.html'" class="nav-button">
+          Home
+        </button>
+        <button onclick="location.href='soil-health.html'" class="nav-button">
+          Soil Health
+        </button>
+        <button
+          onclick="location.href='recommendations.html'"
+          class="nav-button"
+        >
+          Recommendations
+        </button>
+        <button
+          onclick="location.href='microbial-activity.html'"
+          class="nav-button"
+        >
+          Microbial Activity
+        </button>
+        <button onclick="location.href='enhancement.html'" class="nav-button">
+          Enhancement
+        </button>
+        <button onclick="location.href='analysis.html'" class="nav-button">
+          Analysis
+        </button>
+        <button onclick="location.href='about.html'" class="nav-button">
+          About us
+        </button>
+      </div>
+    </header>
+
+    <main class="dashboard">
+      <div class="comparison-section">
+        <h2>Soil Parameter Comparison</h2>
+        <p>
+          Compare soil properties over time to monitor trends and make informed
+          decisions.
+        </p>
+
+        <div class="control-panel">
+          <h3>Select Time Period:</h3>
+          <label for="timePeriod">Time Range:</label>
+          <select id="timePeriod" onchange="updateComparisonCharts()">
+            <option value="7">Last 7 Days</option>
+            <option value="30">Last 30 Days</option>
+            <option value="90">Last 3 Months</option>
+          </select>
+        </div>
+
+        <!-- pH and Moisture Graph -->
+        <div class="chart-container">
+          <h3>pH Levels vs. Moisture</h3>
+          <canvas id="comparisonChart"></canvas>
+        </div>
+
+        <!-- NPK Levels Graph -->
+        <div class="chart-container">
+          <h3>NPK Levels (Nitrogen, Phosphorus, Potassium)</h3>
+          <canvas id="npkChart"></canvas>
+        </div>
+
+        <!-- Temperature vs. Humidity Graph -->
+        <div class="chart-container">
+          <h3>Soil Temperature vs. Humidity</h3>
+          <canvas id="tempHumidityChart"></canvas>
+        </div>
+      </div>
+    </main>
+
+    <script src="..\JavaScript Files\analysis.js"></script>
+  </body>
+</html>
