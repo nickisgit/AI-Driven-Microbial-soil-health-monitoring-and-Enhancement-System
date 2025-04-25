@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Discussion Page</title>
-    <link rel="stylesheet" href="..\CSS Files\discussion.css" />
+    <link rel="stylesheet" href="../CSS Files/discussion.css" />
   </head>
   <body>
     <header>
       <h1>Welcome to the Discussion Page</h1>
+      <div id="clock"></div>
     </header>
 
     <main>
@@ -16,35 +17,54 @@
         <h2>Discussion Forum</h2>
         <p>
           Engage in discussions, share your thoughts, and interact with others.
-          This forum is designed to encourage meaningful conversations on a
-          variety of topics.
         </p>
         <ul>
           <li>
-            <strong>Technology:</strong> Discuss the latest trends, AI
-            advancements, and software development.
+            <strong>Technology:</strong> AI, Machine Learning, Internet Of
+            Things.
+          </li>
+          <li><strong>Agriculture:</strong> Soil, Crops, Microbial</li>
+          <li>
+            <strong>Business:</strong> Crop Yeilds, Monitoring, Market Trends.
           </li>
           <li>
-            <strong>Science:</strong> Explore groundbreaking discoveries and
-            scientific theories.
+            <strong>Health & Wellness:</strong> Soil-Health, Organic Farming,
+            Healthy diet.
           </li>
           <li>
-            <strong>Business:</strong> Share insights on startups,
-            entrepreneurship, and financial markets.
+            <strong>Environment:</strong> Climate Change, Sustainability,
+            Conservation.
+          </li>
+          <li><strong>Science:</strong> Research, Innovations, Discoveries.</li>
+          <li>
+            <strong>Startups:</strong> Entrepreneurship, Investment, Growth.
           </li>
           <li>
-            <strong>Health & Wellness:</strong> Talk about fitness, mental
-            health, and medical innovations.
+            <strong>Finance:</strong> Investment, Market Trends, Financial
+            Planning.
           </li>
           <li>
-            <strong>Entertainment:</strong> Debate the latest movies, music, and
-            gaming trends.
+            <strong>Education:</strong> Learning, Research, Knowledge Sharing.
+          </li>
+          <li>
+            <strong>Miscellaneous:</strong> General Discussions, Off-Topic.
+          </li>
+          <li>
+            <strong>Feedback:</strong> Suggestions, Improvements, User
+            Experience.
+          </li>
+          <li><strong>Events:</strong> Webinars, Workshops, Conferences.</li>
+          <li>
+            <strong>News:</strong> Latest Updates, Announcements, Industry News.
           </li>
         </ul>
+
         <div class="discussion-box" id="discussionBox">
           <p>Start the discussion below:</p>
+          <div id="commentsSection"></div>
         </div>
 
+        <input type="text" id="userName" placeholder="Enter your name" />
         <textarea
           id="commentInput"
           placeholder="Write your comment..."
@@ -56,19 +76,19 @@
         <h2>Featured Comments</h2>
         <p>
           "Technology is evolving at an exponential rate. AI is just the
-          beginning!" - Alex
+          beginning!" - <em>Gaurav Kumar</em>
         </p>
         <p>
           "The future of science lies in quantum computing and space
-          exploration." - Maria
+          exploration." - <em>Abhay Thakur</em>
         </p>
         <p>
           "Investing in startups is risky, but can be very rewarding if done
-          right." - John
+          right." - <em>Akhil Rana</em>
         </p>
       </section>
     </main>
 
-    <script src="..\JavaScript Files\discussion.js"></script>
+    <script src="../JavaScript Files/discussion.js"></script>
   </body>
 </html>
