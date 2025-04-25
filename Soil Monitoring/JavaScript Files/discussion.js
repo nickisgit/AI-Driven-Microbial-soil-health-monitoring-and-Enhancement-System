@@ -1,20 +1,29 @@
 document.addEventListener("DOMContentLoaded", function () {
   const postButton = document.getElementById("postButton");
   const commentInput = document.getElementById("commentInput");
-  const discussionBox = document.getElementById("discussionBox");
+  const userNameInput = document.getElementById("userName");
+  const commentsSection = document.getElementById("commentsSection");
+  const clock = document.getElementById("clock");
 
-  postButton.addEventListener("click", function () {
-    const commentText = commentInput.value.trim();
+  postButton.addEventListener("click", () => {
+    const comment = commentInput.value.trim();
+    const user = userNameInput.value.trim() || "Anonymous";
 
-    if (commentText !== "") {
-      const newComment = document.createElement("p");
-      newComment.textContent = commentText;
-      newComment.classList.add("fade-in-comment");
-
-      discussionBox.appendChild(newComment);
+    if (comment) {
+      const commentDiv = document.createElement("div");
+      commentDiv.classList.add("comment");
+      const now = new Date().toLocaleString();
+      commentDiv.innerHTML = `<strong>${user}</strong> (${now}):<br>${comment}`;
+      commentsSection.prepend(commentDiv);
       commentInput.value = "";
-
-      discussionBox.scrollTop = discussionBox.scrollHeight;
     }
   });
+
+  function updateClock() {
+    const now = new Date();
+    clock.textContent = now.toLocaleTimeString();
+  }
+
+  setInterval(updateClock, 1000);
+  updateClock(); // Initial run
 });
